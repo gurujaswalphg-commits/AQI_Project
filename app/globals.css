@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: oklch(0.14 0.01 260);
+  --color-foreground: oklch(0.97 0.01 260);
+  --color-card: oklch(0.18 0.01 260);
+  --color-card-foreground: oklch(0.97 0.01 260);
+  --color-popover: oklch(0.18 0.01 260);
+  --color-popover-foreground: oklch(0.97 0.01 260);
+  --color-primary: oklch(0.65 0.18 160);
+  --color-primary-foreground: oklch(0.14 0.01 260);
+  --color-secondary: oklch(0.25 0.02 260);
+  --color-secondary-foreground: oklch(0.97 0.01 260);
+  --color-muted: oklch(0.22 0.01 260);
+  --color-muted-foreground: oklch(0.65 0.02 260);
+  --color-accent: oklch(0.25 0.02 260);
+  --color-accent-foreground: oklch(0.97 0.01 260);
+  --color-destructive: oklch(0.55 0.2 25);
+  --color-destructive-foreground: oklch(0.97 0.01 260);
+  --color-border: oklch(0.28 0.02 260);
+  --color-input: oklch(0.28 0.02 260);
+  --color-ring: oklch(0.65 0.18 160);
+  
+  /* AQI Category Colors */
+  --color-aqi-good: oklch(0.72 0.19 145);
+  --color-aqi-moderate: oklch(0.85 0.18 85);
+  --color-aqi-sensitive: oklch(0.75 0.18 55);
+  --color-aqi-unhealthy: oklch(0.55 0.22 25);
+  --color-aqi-very-unhealthy: oklch(0.45 0.2 300);
+  --color-aqi-hazardous: oklch(0.35 0.15 15);
+  
+  /* Chart Colors */
+  --color-chart-1: oklch(0.65 0.18 160);
+  --color-chart-2: oklch(0.7 0.18 220);
+  --color-chart-3: oklch(0.75 0.15 55);
+  --color-chart-4: oklch(0.55 0.22 25);
+  --color-chart-5: oklch(0.6 0.18 280);
+  
+  --radius: 0.625rem;
+  
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, "SF Mono", monospace;
+}
+
+* {
+  border-color: var(--color-border);
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-muted);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-muted-foreground);
+}
