@@ -1,0 +1,30 @@
+# Large data files
+*.csv
+*.xlsx
+*.xls
+
+# Executables
+*.exe
+*.dll
+*.so
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Upload scripts
+upload_*.py
