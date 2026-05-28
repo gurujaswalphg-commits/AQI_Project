@@ -899,3 +899,11 @@ st.markdown("""
 - Health recommendations based on WHO guidelines
 - Forecasts are indicative and based on current trends
 """)
+st.markdown(
+    """
+    ---
+    **Developed By: Gurpreet Singh, Assistant Professor, CEA, GLA University Mathura, 2026**
+    """,
+    unsafe_allow_html=True
+)
+
