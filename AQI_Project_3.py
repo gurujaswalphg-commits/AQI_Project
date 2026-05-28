@@ -902,7 +902,7 @@ st.markdown("""
 st.markdown(
     """
     ---
-    **Developed By: Gurpreet Singh, Assistant Professor, CEA, GLA University Mathura, 2026**
+    **Developed And Copyright By: Gurpreet Singh, Assistant Professor, CEA, GLA University Mathura, 2026**
     """,
     unsafe_allow_html=True
 )
