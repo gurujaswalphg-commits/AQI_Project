@@ -1,0 +1,12 @@
+streamlit
+pandas
+numpy
+requests
+matplotlib
+seaborn
+statsmodels
+openpyxl
+xlsxwriter
+scikit-learn
+reportlab
+fpdf2
