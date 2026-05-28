@@ -291,7 +291,7 @@ import statsmodels.api as sm
 @st.cache_data
 
 def load_aqi_data():
-    file_path = r'D:/GLA Mathura/Jan May 2026/Mini Project/AQI Dataset/archive (3)/multi_city_aqi.xlsx'
+    file_path = r'multi_city_aqi.xlsx'
     df = pd.read_excel(file_path)
     return df
 
